@@ -22,7 +22,7 @@ By applying NumPy's `np.dot()` function, the mathematical operation is pushed do
 *The code for this implementation is in `solution.py`.*
 
 **Output Screenshot:**
-![Execution Output](output.png)
+![Execution Output](task2_output.png)
 
 **Output Interpretation:**
 The output yields a scalar prediction score of `3833313333350000.0`. More importantly, the timing metrics prove the solution's effectiveness: the vectorized NumPy computation takes roughly ~2.5 ms compared to the traditional loop's ~116 ms. This ~45x speedup demonstrates that vectorization is computationally mandatory for scalable Machine Learning operations.
