@@ -13,4 +13,5 @@ Each exercise is maintained as a separate directory containing:
 
 | Exercise | Topic | Status |
 |---|---|---|
-| Exercise 01 | Numpy Arrays and Numerical Computation | Pending |
+| Exercise 01| Numpy Arrays and Numerical Computation | implemented |
+| Exercise 02 | Vectorization and Dot Products | implemented |
