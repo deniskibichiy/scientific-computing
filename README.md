@@ -15,3 +15,5 @@ Each exercise is maintained as a separate directory containing:
 |---|---|---|
 | Exercise 01| Numpy Arrays and Numerical Computation | implemented |
 | Exercise 02 | Vectorization and Dot Products | implemented |
+| Exercise 03 | Floating-Point Arithmetic and Numerical Errors | implemented |
+| Exercise 04 | Matrix Algebra and Matrix Operations | implemented |
