@@ -39,3 +39,4 @@ The output demonstrates three things:
 1. The exact comparison fails (`False`), while `np.isclose()` correctly understands the numbers are practically identical (`True`).
 2. The absolute and relative errors quantify exactly how much information is lost when truncating an irrational number like `sqrt(2)`.
 3. In the gradient calculation, as `x` gets smaller (`1e-12`), the direct equation catastrophically fails and outputs `0.0`. The stable equation successfully calculates the true limit (`0.5`).
+

@@ -12,7 +12,9 @@ Vectorization is essential for large datasets, simulations, signal processing, a
 
 ## 3. Real-World Problem Description
 **Scenario:** In Machine Learning, specifically Natural Language Processing (NLP), text documents are often converted into high-dimensional numerical vectors (embeddings). To calculate a model's prediction score for a specific document, the system must compute the dot product of the document's feature vector and the model's trained weight vector. 
+
 **Problem:** When processing high-dimensional data (e.g., 100,000 features), relying on traditional programming loops creates a massive CPU processing bottleneck, making real-time inference impossible.
+
 **Assumptions & Data:** We assume dense, numeric data. The input data consists of a 100,000-element `features` array and a corresponding 100,000-element `weights` array.
 
 ## 4. How the Concept Solves It
